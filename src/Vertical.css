@@ -1,0 +1,42 @@
+.Vimg
+{
+    max-height: 230px;
+    object-fit: contain;
+    transition:transform 450ms;
+
+}
+.Vimg:hover{
+    transform: scale(1.08);
+}
+.Himg
+{
+    max-width: 600px;
+}
+.Himg:hover
+{
+    transform: scale(1.09);
+}
+button
+{
+    background-color: black;
+    opacity: 0.6;
+    color:white;
+    font-weight: 800;
+    font-size: larger;
+    width: 60px;
+    height: 40px;
+    z-index: 12000;
+}
+
+.left_div
+{
+    position: absolute;
+    top: 50%;
+
+}
+.right_div
+{
+    position: absolute;
+    top: 50%;
+    right: 0;
+}
